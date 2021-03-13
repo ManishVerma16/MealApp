@@ -7,7 +7,7 @@ import 'package:flutter/foundation.dart';
 }
 
 enum Affordability {
-  Affrodable,
+  Affordable,
   Pricey,
   Luxurious,
 }
