@@ -35,12 +35,17 @@ class MyApp extends StatelessWidget {
       initialRoute: '/', // points to default route '/' but can be change to some other page
       routes: {
         '/' : (ctx) => CategoriesScreen(),  // Annotation for home route
-        // '/category_meals' : (ctx) => CategoryMealsScreen(),  // route name create as a string
         CategoryMealsScreen.routeName : (ctx) => CategoryMealsScreen(), // route name created as a static const property
       },
     );
   }
 }
+
+/*
+Route name for meals page
+'/category_meals' : (ctx) => CategoryMealsScreen(),  // route name create as a string
+
+*/
 
 /*
 class MyHomePage extends StatefulWidget {
