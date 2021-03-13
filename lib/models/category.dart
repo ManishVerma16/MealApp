@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Category structure file
+
 class Category {
   final String id;
   final String title;

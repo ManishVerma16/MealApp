@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import './models/category.dart';
 
+// Category data file
+
 const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
