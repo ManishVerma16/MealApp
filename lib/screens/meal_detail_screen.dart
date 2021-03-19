@@ -80,13 +80,23 @@ class MealDetailScreen extends StatelessWidget {
                         selectedMeal.steps[index],
                       ),
                     ),
-                    Divider(thickness: 2.0,),
+                    Divider(
+                      thickness: 2.0,
+                    ),
                   ],
                 ),
                 itemCount: selectedMeal.steps.length,
               ),
             ),
           ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.of(context).pop(mealId);
+        },
+        child: Icon(
+          Icons.delete,
         ),
       ),
     );
